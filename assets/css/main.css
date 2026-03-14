@@ -2590,7 +2590,7 @@ input, select, textarea {
 
 	.profile img{
 		border-radius: 50%;
-		max-width: 70%;
+		max-width: 40%;
 	}
 
 	.image {
@@ -3290,7 +3290,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 2rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3623,12 +3623,12 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
 		line-height: 4rem;
-		margin: -4rem auto 0 auto;
+		margin: -4rem 0 0 0;
 		overflow: hidden;
-		padding: 0 2rem 0 0;
+		padding: 0 2rem 0 2rem;
 		position: relative;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
+		width: 100%;
+		max-width: none;
 		z-index: 2;
 	}
 
@@ -3763,9 +3763,9 @@ input, select, textarea {
 	#main {
 		background-color: #ffffff;
 		position: relative;
-		margin: 0 auto;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
+		margin: 0;
+		width: 100%;
+		max-width: none;
 		z-index: 2;
 	}
 
@@ -3962,9 +3962,9 @@ input, select, textarea {
 		color: #909498;
 		cursor: default;
 		position: relative;
-		margin: 0 auto;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
+		margin: 0;
+		width: 100%;
+		max-width: none;
 		z-index: 2;
 	}
 
@@ -4399,9 +4399,9 @@ input, select, textarea {
 		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
-		margin: 4rem auto 8rem auto;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
+		margin: 4rem 0 8rem 0;
+		width: 100%;
+		max-width: none;
 		z-index: 2;
 	}
 
